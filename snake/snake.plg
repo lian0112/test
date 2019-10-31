@@ -6,11 +6,31 @@
 --------------------Configuration: snake - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/snake.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"R:\001\test\snake\snake.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC2.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/snake.pdb" /debug /machine:I386 /out:"Debug/snake.exe" /pdbtype:sept 
+.\Debug\snake.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC3.tmp"
+<h3>Output Window</h3>
+Compiling...
+snake.cpp
+R:\001\test\snake\snake.cpp(196) : error C2001: newline in constant
+R:\001\test\snake\snake.cpp(196) : error C2015: too many characters in constant
+R:\001\test\snake\snake.cpp(197) : error C2146: syntax error : missing ';' before identifier 'UpdateScreen'
+Error executing cl.exe.
 
 
 
 <h3>Results</h3>
-snake.exe - 0 error(s), 0 warning(s)
+snake.exe - 3 error(s), 0 warning(s)
 </pre>
 </body>
 </html>
